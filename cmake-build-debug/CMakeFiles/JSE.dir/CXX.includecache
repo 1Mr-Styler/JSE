@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/styl3r/CLionProjects/JSE/Bart.cpp
+Bart.h
+/Users/styl3r/CLionProjects/JSE/Bart.h
+
+/Users/styl3r/CLionProjects/JSE/Bart.h
+TheSimpsons.h
+/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
+
+/Users/styl3r/CLionProjects/JSE/TheSimpsons.cpp
+iostream
+-
+TheSimpsons.h
+/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
+Bart.h
+/Users/styl3r/CLionProjects/JSE/Bart.h
+
+/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
+string
+-
+
+/Users/styl3r/CLionProjects/JSE/main.cpp
+iostream
+-
+TheSimpsons.h
+/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
+
