@@ -35,7 +35,6 @@ int main() {
             std::cout << "Current user: " << theSimpsons.getName(i)  << std::endl;
             break;
         case Bart:
-            std::cout << static_cast<Bart>(theSimpsons.whoami(3362)).getCatchPhrase() << std::endl;
             std::cout << "Current user: " << theSimpsons.getName(i) << std::endl;
             break;
         default:

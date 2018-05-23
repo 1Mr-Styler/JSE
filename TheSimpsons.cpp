@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include "TheSimpsons.h"
-#include "Bart.h"
 
 std::string TheSimpsons::getName(int i) {
     version = "v2.2";
@@ -29,17 +28,5 @@ std::string TheSimpsons::getName(int i) {
 }
 
 TheSimpsons TheSimpsons::whoami(int i) {
-    return Bart();
-//    switch (i) {
-//        case 3361:
-//
-//            break;
-//        case 3362:
-//
-//            break;
-//        case 3364:
-//
-//            break;
-//        default:
-//    }
+    return TheSimpsons();
 }

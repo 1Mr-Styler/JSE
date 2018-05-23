@@ -5,10 +5,10 @@ CMakeFiles/JSE.dir/Bart.cpp.o: ../Bart.cpp
 CMakeFiles/JSE.dir/Bart.cpp.o: ../Bart.h
 CMakeFiles/JSE.dir/Bart.cpp.o: ../TheSimpsons.h
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.o: ../Bart.h
 CMakeFiles/JSE.dir/TheSimpsons.cpp.o: ../TheSimpsons.cpp
 CMakeFiles/JSE.dir/TheSimpsons.cpp.o: ../TheSimpsons.h
 
+CMakeFiles/JSE.dir/main.cpp.o: ../Bart.h
 CMakeFiles/JSE.dir/main.cpp.o: ../TheSimpsons.h
 CMakeFiles/JSE.dir/main.cpp.o: ../main.cpp
 
