@@ -5,6 +5,13 @@
 
 using namespace std;
 
+template <typename T>
+void TheSimpsonsFamily(T & simp) {
+    cout << "Name: " << simp.getName() << endl;
+    cout << "Hairstyle: " << simp.HairStyle() << endl;
+    cout << "~~~~~~~~~~~~~~~~~~~~~\n";
+
+}
 
 int main() {
 
@@ -13,11 +20,8 @@ int main() {
 
     cout << "Burns World! v0.3.1" << endl << endl;
 
-    cout << "Name: " << bart.getName() << endl;
-    cout << "Hairstyle: " << bart.HairStyle() << endl;
-    cout << "~~~~~~~~~~~~~~~~~~~~~\n";
-    cout << "Name: " << lisa.getName() << endl;
-    cout << "Hairstyle: " << lisa.HairStyle() << endl;
+    TheSimpsonsFamily(bart);
+    TheSimpsonsFamily(lisa);
 
     return 0;
 }
