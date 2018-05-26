@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/JSE.dir/main.cpp.o"
-  "CMakeFiles/JSE.dir/TheSimpsons.cpp.o"
-  "CMakeFiles/JSE.dir/Bart.cpp.o"
+  "CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o"
+  "CMakeFiles/JSE.dir/SE1/Bart.cpp.o"
+  "CMakeFiles/JSE.dir/SE1/Lisa.cpp.o"
   "JSE.pdb"
   "JSE"
 )

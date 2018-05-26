@@ -80,16 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/styl3r/CLionProjects/JSE/Bart.cpp">
+		<Unit filename="/Users/styl3r/CLionProjects/JSE/SE1/Bart.cpp">
 			<Option target="JSE"/>
 		</Unit>
-		<Unit filename="/Users/styl3r/CLionProjects/JSE/Bart.h">
+		<Unit filename="/Users/styl3r/CLionProjects/JSE/SE1/Bart.h">
 			<Option target="JSE"/>
 		</Unit>
-		<Unit filename="/Users/styl3r/CLionProjects/JSE/TheSimpsons.cpp">
+		<Unit filename="/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.cpp">
 			<Option target="JSE"/>
 		</Unit>
-		<Unit filename="/Users/styl3r/CLionProjects/JSE/TheSimpsons.h">
+		<Unit filename="/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.h">
+			<Option target="JSE"/>
+		</Unit>
+		<Unit filename="/Users/styl3r/CLionProjects/JSE/SE1/Lisa.cpp">
+			<Option target="JSE"/>
+		</Unit>
+		<Unit filename="/Users/styl3r/CLionProjects/JSE/SE1/Lisa.h">
 			<Option target="JSE"/>
 		</Unit>
 		<Unit filename="/Users/styl3r/CLionProjects/JSE/main.cpp">

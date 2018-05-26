@@ -30,3 +30,8 @@ std::string TheSimpsons::getName(int i) {
 TheSimpsons TheSimpsons::whoami(int i) {
     return TheSimpsons();
 }
+
+TheSimpsons TheSimpsons::operator=(TheSimpsons &theSimpsons) {
+    version = "emp.version";
+    return *this;
+}

@@ -6,29 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/styl3r/CLionProjects/JSE/Bart.cpp
+/Users/styl3r/CLionProjects/JSE/SE1/Bart.cpp
 Bart.h
-/Users/styl3r/CLionProjects/JSE/Bart.h
+/Users/styl3r/CLionProjects/JSE/SE1/Bart.h
 
-/Users/styl3r/CLionProjects/JSE/Bart.h
-TheSimpsons.h
-/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
+/Users/styl3r/CLionProjects/JSE/SE1/Bart.h
+HomerAndMarge.h
+/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.h
 
-/Users/styl3r/CLionProjects/JSE/TheSimpsons.cpp
+/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.cpp
+HomerAndMarge.h
+/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.h
+
+/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.h
 iostream
 -
-TheSimpsons.h
-/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
 
-/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
-string
--
+/Users/styl3r/CLionProjects/JSE/SE1/Lisa.cpp
+Lisa.h
+/Users/styl3r/CLionProjects/JSE/SE1/Lisa.h
+
+/Users/styl3r/CLionProjects/JSE/SE1/Lisa.h
+HomerAndMarge.h
+/Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.h
 
 /Users/styl3r/CLionProjects/JSE/main.cpp
 iostream
 -
-TheSimpsons.h
-/Users/styl3r/CLionProjects/JSE/TheSimpsons.h
-Bart.h
-/Users/styl3r/CLionProjects/JSE/Bart.h
+SE1/Bart.h
+/Users/styl3r/CLionProjects/JSE/SE1/Bart.h
+SE1/Lisa.h
+/Users/styl3r/CLionProjects/JSE/SE1/Lisa.h
 

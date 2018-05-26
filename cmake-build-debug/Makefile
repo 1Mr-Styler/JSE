@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/styl3r/CLionProjects/JSE/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,59 +123,86 @@ JSE/fast:
 	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/build
 .PHONY : JSE/fast
 
-Bart.o: Bart.cpp.o
+SE1/Bart.o: SE1/Bart.cpp.o
 
-.PHONY : Bart.o
-
-# target to build an object file
-Bart.cpp.o:
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/Bart.cpp.o
-.PHONY : Bart.cpp.o
-
-Bart.i: Bart.cpp.i
-
-.PHONY : Bart.i
-
-# target to preprocess a source file
-Bart.cpp.i:
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/Bart.cpp.i
-.PHONY : Bart.cpp.i
-
-Bart.s: Bart.cpp.s
-
-.PHONY : Bart.s
-
-# target to generate assembly for a file
-Bart.cpp.s:
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/Bart.cpp.s
-.PHONY : Bart.cpp.s
-
-TheSimpsons.o: TheSimpsons.cpp.o
-
-.PHONY : TheSimpsons.o
+.PHONY : SE1/Bart.o
 
 # target to build an object file
-TheSimpsons.cpp.o:
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/TheSimpsons.cpp.o
-.PHONY : TheSimpsons.cpp.o
+SE1/Bart.cpp.o:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Bart.cpp.o
+.PHONY : SE1/Bart.cpp.o
 
-TheSimpsons.i: TheSimpsons.cpp.i
+SE1/Bart.i: SE1/Bart.cpp.i
 
-.PHONY : TheSimpsons.i
+.PHONY : SE1/Bart.i
 
 # target to preprocess a source file
-TheSimpsons.cpp.i:
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/TheSimpsons.cpp.i
-.PHONY : TheSimpsons.cpp.i
+SE1/Bart.cpp.i:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Bart.cpp.i
+.PHONY : SE1/Bart.cpp.i
 
-TheSimpsons.s: TheSimpsons.cpp.s
+SE1/Bart.s: SE1/Bart.cpp.s
 
-.PHONY : TheSimpsons.s
+.PHONY : SE1/Bart.s
 
 # target to generate assembly for a file
-TheSimpsons.cpp.s:
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/TheSimpsons.cpp.s
-.PHONY : TheSimpsons.cpp.s
+SE1/Bart.cpp.s:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Bart.cpp.s
+.PHONY : SE1/Bart.cpp.s
+
+SE1/HomerAndMarge.o: SE1/HomerAndMarge.cpp.o
+
+.PHONY : SE1/HomerAndMarge.o
+
+# target to build an object file
+SE1/HomerAndMarge.cpp.o:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o
+.PHONY : SE1/HomerAndMarge.cpp.o
+
+SE1/HomerAndMarge.i: SE1/HomerAndMarge.cpp.i
+
+.PHONY : SE1/HomerAndMarge.i
+
+# target to preprocess a source file
+SE1/HomerAndMarge.cpp.i:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.i
+.PHONY : SE1/HomerAndMarge.cpp.i
+
+SE1/HomerAndMarge.s: SE1/HomerAndMarge.cpp.s
+
+.PHONY : SE1/HomerAndMarge.s
+
+# target to generate assembly for a file
+SE1/HomerAndMarge.cpp.s:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.s
+.PHONY : SE1/HomerAndMarge.cpp.s
+
+SE1/Lisa.o: SE1/Lisa.cpp.o
+
+.PHONY : SE1/Lisa.o
+
+# target to build an object file
+SE1/Lisa.cpp.o:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Lisa.cpp.o
+.PHONY : SE1/Lisa.cpp.o
+
+SE1/Lisa.i: SE1/Lisa.cpp.i
+
+.PHONY : SE1/Lisa.i
+
+# target to preprocess a source file
+SE1/Lisa.cpp.i:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Lisa.cpp.i
+.PHONY : SE1/Lisa.cpp.i
+
+SE1/Lisa.s: SE1/Lisa.cpp.s
+
+.PHONY : SE1/Lisa.s
+
+# target to generate assembly for a file
+SE1/Lisa.cpp.s:
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Lisa.cpp.s
+.PHONY : SE1/Lisa.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... JSE"
-	@echo "... Bart.o"
-	@echo "... Bart.i"
-	@echo "... Bart.s"
-	@echo "... TheSimpsons.o"
-	@echo "... TheSimpsons.i"
-	@echo "... TheSimpsons.s"
+	@echo "... SE1/Bart.o"
+	@echo "... SE1/Bart.i"
+	@echo "... SE1/Bart.s"
+	@echo "... SE1/HomerAndMarge.o"
+	@echo "... SE1/HomerAndMarge.i"
+	@echo "... SE1/HomerAndMarge.s"
+	@echo "... SE1/Lisa.o"
+	@echo "... SE1/Lisa.i"
+	@echo "... SE1/Lisa.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

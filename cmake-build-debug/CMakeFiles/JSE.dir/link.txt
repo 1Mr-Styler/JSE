@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/JSE.dir/main.cpp.o CMakeFiles/JSE.dir/TheSimpsons.cpp.o CMakeFiles/JSE.dir/Bart.cpp.o  -o JSE 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/JSE.dir/main.cpp.o CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o CMakeFiles/JSE.dir/SE1/Bart.cpp.o CMakeFiles/JSE.dir/SE1/Lisa.cpp.o  -o JSE 

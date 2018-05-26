@@ -1,50 +1,23 @@
 #include <iostream>
-#include "TheSimpsons.h"
-#include "Bart.h"
+#include "SE1/Bart.h"
+#include "SE1/Lisa.h"
 
-enum Simpsons {
-    Burns = 3360,
-    Homer,
-    Bart,
-    Lisa,
-    Marge,
-    Maggie,
-    ANON
-};
-
+using namespace std;
 
 
 int main() {
 
-    int i;
-    Simpsons simpson;
-    TheSimpsons theSimpsons;
+    Bart *bart = new Bart("Bart J. Simpson");
+    Lisa *lisa = new Lisa("Lisa J. Simpson");
 
-    std::cout << "Burns World! v0.3.0" << std::endl;
-    std::cout << "What's your ID?: ";
-    std::cin >> i;
+    cout << "Burns World! v0.3.1" << endl << endl;
 
-    simpson = static_cast<Simpsons >(i);
-    switch (simpson) {
-        case Burns:
-            std::cout << "Welcome, sir!" << std::endl;
-            std::cout << "Current user: " << theSimpsons.getName(i) << std::endl;
-            break;
-        case Homer:
-            std::cout << "D'oh!" << std::endl;
-            std::cout << "Current user: " << theSimpsons.getName(i)  << std::endl;
-            break;
-        case Bart:
-            std::cout << "Current user: " << theSimpsons.getName(i) << std::endl;
-            break;
-        default:
-            std::cout << "Who the devil are you?!" << std::endl;
-    }
+    cout << "Name: " << bart->getName() << endl;
+    cout << "Hairstyle: " << bart->HairStyle() << endl;
+    cout << "~~~~~~~~~~~~~~~~~~~~~\n";
+    cout << "Name: " << lisa->getName() << endl;
+    cout << "Hairstyle: " << lisa->HairStyle() << endl;
 
-/*    std::cout << simpson << std::endl;
-    if (simpson == theSimpsons.bart) {
-        std::cout << " ~~ Escobart ~~";
-    }*/
     return 0;
 }
 

@@ -10,13 +10,17 @@
 
 class TheSimpsons {
 private:
-    std::string version = "v1.0";
     int userID;
 public:
-//    TheSimpsons();
+    std::string version = "v1.0";
+
+    //    TheSimpsons();
     std::string getName(int i);
-    std::string getCatchPhrase();
+
+    //virtual std::string getCatchPhrase();
     TheSimpsons whoami(int i);
+
+    TheSimpsons operator=(TheSimpsons &theSimpsons);
 };
 
 

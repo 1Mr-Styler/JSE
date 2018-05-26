@@ -10,7 +10,7 @@
 
 class Bart : public TheSimpsons {
 public:
-    std::string getCatchPhrase();
+   // std::string getCatchPhrase() override;
 };
 
 

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/styl3r/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -81,69 +81,95 @@ CMakeFiles/JSE.dir/main.cpp.o.provides: CMakeFiles/JSE.dir/main.cpp.o.requires
 CMakeFiles/JSE.dir/main.cpp.o.provides.build: CMakeFiles/JSE.dir/main.cpp.o
 
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.o: CMakeFiles/JSE.dir/flags.make
-CMakeFiles/JSE.dir/TheSimpsons.cpp.o: ../TheSimpsons.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JSE.dir/TheSimpsons.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSE.dir/TheSimpsons.cpp.o -c /Users/styl3r/CLionProjects/JSE/TheSimpsons.cpp
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o: CMakeFiles/JSE.dir/flags.make
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o: ../SE1/HomerAndMarge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o -c /Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.cpp
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSE.dir/TheSimpsons.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/styl3r/CLionProjects/JSE/TheSimpsons.cpp > CMakeFiles/JSE.dir/TheSimpsons.cpp.i
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.cpp > CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.i
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSE.dir/TheSimpsons.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/styl3r/CLionProjects/JSE/TheSimpsons.cpp -o CMakeFiles/JSE.dir/TheSimpsons.cpp.s
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/styl3r/CLionProjects/JSE/SE1/HomerAndMarge.cpp -o CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.s
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.o.requires:
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.requires:
 
-.PHONY : CMakeFiles/JSE.dir/TheSimpsons.cpp.o.requires
+.PHONY : CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.requires
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.o.provides: CMakeFiles/JSE.dir/TheSimpsons.cpp.o.requires
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/TheSimpsons.cpp.o.provides.build
-.PHONY : CMakeFiles/JSE.dir/TheSimpsons.cpp.o.provides
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.provides: CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.requires
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.provides.build
+.PHONY : CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.provides
 
-CMakeFiles/JSE.dir/TheSimpsons.cpp.o.provides.build: CMakeFiles/JSE.dir/TheSimpsons.cpp.o
+CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.provides.build: CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o
 
 
-CMakeFiles/JSE.dir/Bart.cpp.o: CMakeFiles/JSE.dir/flags.make
-CMakeFiles/JSE.dir/Bart.cpp.o: ../Bart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JSE.dir/Bart.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSE.dir/Bart.cpp.o -c /Users/styl3r/CLionProjects/JSE/Bart.cpp
+CMakeFiles/JSE.dir/SE1/Bart.cpp.o: CMakeFiles/JSE.dir/flags.make
+CMakeFiles/JSE.dir/SE1/Bart.cpp.o: ../SE1/Bart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JSE.dir/SE1/Bart.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSE.dir/SE1/Bart.cpp.o -c /Users/styl3r/CLionProjects/JSE/SE1/Bart.cpp
 
-CMakeFiles/JSE.dir/Bart.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSE.dir/Bart.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/styl3r/CLionProjects/JSE/Bart.cpp > CMakeFiles/JSE.dir/Bart.cpp.i
+CMakeFiles/JSE.dir/SE1/Bart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSE.dir/SE1/Bart.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/styl3r/CLionProjects/JSE/SE1/Bart.cpp > CMakeFiles/JSE.dir/SE1/Bart.cpp.i
 
-CMakeFiles/JSE.dir/Bart.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSE.dir/Bart.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/styl3r/CLionProjects/JSE/Bart.cpp -o CMakeFiles/JSE.dir/Bart.cpp.s
+CMakeFiles/JSE.dir/SE1/Bart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSE.dir/SE1/Bart.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/styl3r/CLionProjects/JSE/SE1/Bart.cpp -o CMakeFiles/JSE.dir/SE1/Bart.cpp.s
 
-CMakeFiles/JSE.dir/Bart.cpp.o.requires:
+CMakeFiles/JSE.dir/SE1/Bart.cpp.o.requires:
 
-.PHONY : CMakeFiles/JSE.dir/Bart.cpp.o.requires
+.PHONY : CMakeFiles/JSE.dir/SE1/Bart.cpp.o.requires
 
-CMakeFiles/JSE.dir/Bart.cpp.o.provides: CMakeFiles/JSE.dir/Bart.cpp.o.requires
-	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/Bart.cpp.o.provides.build
-.PHONY : CMakeFiles/JSE.dir/Bart.cpp.o.provides
+CMakeFiles/JSE.dir/SE1/Bart.cpp.o.provides: CMakeFiles/JSE.dir/SE1/Bart.cpp.o.requires
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Bart.cpp.o.provides.build
+.PHONY : CMakeFiles/JSE.dir/SE1/Bart.cpp.o.provides
 
-CMakeFiles/JSE.dir/Bart.cpp.o.provides.build: CMakeFiles/JSE.dir/Bart.cpp.o
+CMakeFiles/JSE.dir/SE1/Bart.cpp.o.provides.build: CMakeFiles/JSE.dir/SE1/Bart.cpp.o
+
+
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.o: CMakeFiles/JSE.dir/flags.make
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.o: ../SE1/Lisa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JSE.dir/SE1/Lisa.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSE.dir/SE1/Lisa.cpp.o -c /Users/styl3r/CLionProjects/JSE/SE1/Lisa.cpp
+
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSE.dir/SE1/Lisa.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/styl3r/CLionProjects/JSE/SE1/Lisa.cpp > CMakeFiles/JSE.dir/SE1/Lisa.cpp.i
+
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSE.dir/SE1/Lisa.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/styl3r/CLionProjects/JSE/SE1/Lisa.cpp -o CMakeFiles/JSE.dir/SE1/Lisa.cpp.s
+
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.requires:
+
+.PHONY : CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.requires
+
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.provides: CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.requires
+	$(MAKE) -f CMakeFiles/JSE.dir/build.make CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.provides.build
+.PHONY : CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.provides
+
+CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.provides.build: CMakeFiles/JSE.dir/SE1/Lisa.cpp.o
 
 
 # Object files for target JSE
 JSE_OBJECTS = \
 "CMakeFiles/JSE.dir/main.cpp.o" \
-"CMakeFiles/JSE.dir/TheSimpsons.cpp.o" \
-"CMakeFiles/JSE.dir/Bart.cpp.o"
+"CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o" \
+"CMakeFiles/JSE.dir/SE1/Bart.cpp.o" \
+"CMakeFiles/JSE.dir/SE1/Lisa.cpp.o"
 
 # External object files for target JSE
 JSE_EXTERNAL_OBJECTS =
 
 JSE: CMakeFiles/JSE.dir/main.cpp.o
-JSE: CMakeFiles/JSE.dir/TheSimpsons.cpp.o
-JSE: CMakeFiles/JSE.dir/Bart.cpp.o
+JSE: CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o
+JSE: CMakeFiles/JSE.dir/SE1/Bart.cpp.o
+JSE: CMakeFiles/JSE.dir/SE1/Lisa.cpp.o
 JSE: CMakeFiles/JSE.dir/build.make
 JSE: CMakeFiles/JSE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable JSE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/styl3r/CLionProjects/JSE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable JSE"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JSE.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +178,9 @@ CMakeFiles/JSE.dir/build: JSE
 .PHONY : CMakeFiles/JSE.dir/build
 
 CMakeFiles/JSE.dir/requires: CMakeFiles/JSE.dir/main.cpp.o.requires
-CMakeFiles/JSE.dir/requires: CMakeFiles/JSE.dir/TheSimpsons.cpp.o.requires
-CMakeFiles/JSE.dir/requires: CMakeFiles/JSE.dir/Bart.cpp.o.requires
+CMakeFiles/JSE.dir/requires: CMakeFiles/JSE.dir/SE1/HomerAndMarge.cpp.o.requires
+CMakeFiles/JSE.dir/requires: CMakeFiles/JSE.dir/SE1/Bart.cpp.o.requires
+CMakeFiles/JSE.dir/requires: CMakeFiles/JSE.dir/SE1/Lisa.cpp.o.requires
 
 .PHONY : CMakeFiles/JSE.dir/requires
 
